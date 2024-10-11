@@ -1,0 +1,14 @@
+# Ignore build and install folders
+build/
+install/
+log/
+
+# Ignore any CMake cache files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore Python cache and virtual environment files
+*.pyc
+__pycache__/
+venv/
+
