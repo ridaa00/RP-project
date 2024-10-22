@@ -1,0 +1,47 @@
+[0.028s] Invoking command in '/home/zeeshan/rida_ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zeeshan/rida_ws/build/simple_planner -- -j4 -l4
+[0.079s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.329s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.397s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.403s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.415s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.606s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.211s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.525s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.661s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.662s] -- Configured cppcheck include dirs: 
+[1.662s] -- Configured cppcheck exclude dirs and/or files: 
+[1.662s] -- Added test 'lint_cmake' to check CMake code style
+[1.664s] -- Added test 'uncrustify' to check C / C++ code style
+[1.664s] -- Configured uncrustify additional arguments: 
+[1.665s] -- Added test 'xmllint' to check XML markup files
+[1.666s] -- Configuring done
+[1.685s] -- Generating done
+[1.688s] -- Build files have been written to: /home/zeeshan/rida_ws/build/simple_planner
+[1.763s] [ 50%] [32mBuilding CXX object CMakeFiles/map_handler.dir/src/map_handler.cpp.o[0m
+[19.165s] [100%] [32m[1mLinking CXX executable map_handler[0m
+[20.451s] [100%] Built target map_handler
+[20.474s] Invoked command in '/home/zeeshan/rida_ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zeeshan/rida_ws/build/simple_planner -- -j4 -l4
+[20.533s] Invoking command in '/home/zeeshan/rida_ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zeeshan/rida_ws/build/simple_planner
+[20.547s] -- Install configuration: ""
+[20.548s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler
+[20.556s] -- Set runtime path of "/home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler" to ""
+[20.556s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+[20.556s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+[20.557s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+[20.557s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+[20.557s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.sh
+[20.557s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.dsv
+[20.557s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.bash
+[20.558s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.sh
+[20.558s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.zsh
+[20.558s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.dsv
+[20.558s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.dsv
+[20.558s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+[20.559s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+[20.559s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+[20.559s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.xml
+[20.562s] Invoked command in '/home/zeeshan/rida_ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zeeshan/rida_ws/build/simple_planner

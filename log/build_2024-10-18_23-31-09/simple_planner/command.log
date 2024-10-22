@@ -1,0 +1,6 @@
+Invoking command in '/home/zeeshan/rida_ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zeeshan/rida_ws/src/simple_planner -DCMAKE_INSTALL_PREFIX=/home/zeeshan/rida_ws/install/simple_planner
+Invoked command in '/home/zeeshan/rida_ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zeeshan/rida_ws/src/simple_planner -DCMAKE_INSTALL_PREFIX=/home/zeeshan/rida_ws/install/simple_planner
+Invoking command in '/home/zeeshan/rida_ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zeeshan/rida_ws/build/simple_planner -- -j4 -l4
+Invoked command in '/home/zeeshan/rida_ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zeeshan/rida_ws/build/simple_planner -- -j4 -l4
+Invoking command in '/home/zeeshan/rida_ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zeeshan/rida_ws/build/simple_planner
+Invoked command in '/home/zeeshan/rida_ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zeeshan/rida_ws/build/simple_planner

@@ -1,0 +1,33 @@
+[0.025s] Invoking command in '/home/zeeshan/rida_ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zeeshan/rida_ws/build/simple_planner -- -j4 -l4
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target map_handler[0m
+[0.200s] [ 50%] [32mBuilding CXX object CMakeFiles/map_handler.dir/src/map_handler.cpp.o[0m
+[5.721s] [01m[K/home/zeeshan/rida_ws/src/simple_planner/src/map_handler.cpp:[m[K In member function ‘[01m[Kvoid SimplePlanner::map_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.721s] [01m[K/home/zeeshan/rida_ws/src/simple_planner/src/map_handler.cpp:31:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.721s]    31 |         for (size_t y = 0; [01;35m[Ky < map_height_[m[K; ++y)
+[5.721s]       |                            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[5.721s] [01m[K/home/zeeshan/rida_ws/src/simple_planner/src/map_handler.cpp:33:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.721s]    33 |             for (size_t x = 0; [01;35m[Kx < map_width_[m[K; ++x)
+[5.722s]       |                                [01;35m[K~~^~~~~~~~~~~~[m[K
+[18.182s] [100%] [32m[1mLinking CXX executable map_handler[0m
+[19.499s] [100%] Built target map_handler
+[19.520s] Invoked command in '/home/zeeshan/rida_ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zeeshan/rida_ws/build/simple_planner -- -j4 -l4
+[19.579s] Invoking command in '/home/zeeshan/rida_ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zeeshan/rida_ws/build/simple_planner
+[19.594s] -- Install configuration: ""
+[19.596s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler
+[19.607s] -- Set runtime path of "/home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler" to ""
+[19.608s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+[19.608s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+[19.608s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+[19.609s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+[19.609s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.sh
+[19.609s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.dsv
+[19.609s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.bash
+[19.609s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.sh
+[19.610s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.zsh
+[19.610s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.dsv
+[19.610s] -- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.dsv
+[19.610s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+[19.610s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+[19.610s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+[19.611s] -- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.xml
+[19.613s] Invoked command in '/home/zeeshan/rida_ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zeeshan/rida_ws/build/simple_planner

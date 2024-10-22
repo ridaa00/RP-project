@@ -1,0 +1,36 @@
+[1.707s] Invoking command in '/home/zeeshan/rida_ws/src/new_pkg': PYTHONPATH=/home/zeeshan/rida_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/zeeshan/rida_ws/build/new_pkg/build install --record /home/zeeshan/rida_ws/build/new_pkg/install.log --single-version-externally-managed install_data
+[2.260s] running egg_info
+[2.261s] creating ../../build/new_pkg/new_pkg.egg-info
+[2.261s] writing ../../build/new_pkg/new_pkg.egg-info/PKG-INFO
+[2.262s] writing dependency_links to ../../build/new_pkg/new_pkg.egg-info/dependency_links.txt
+[2.262s] writing entry points to ../../build/new_pkg/new_pkg.egg-info/entry_points.txt
+[2.262s] writing requirements to ../../build/new_pkg/new_pkg.egg-info/requires.txt
+[2.263s] writing top-level names to ../../build/new_pkg/new_pkg.egg-info/top_level.txt
+[2.267s] writing manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[2.270s] reading manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[2.271s] writing manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[2.272s] running build
+[2.272s] running build_py
+[2.272s] creating /home/zeeshan/rida_ws/build/new_pkg/build
+[2.272s] creating /home/zeeshan/rida_ws/build/new_pkg/build/lib
+[2.272s] creating /home/zeeshan/rida_ws/build/new_pkg/build/lib/new_pkg
+[2.273s] copying new_pkg/__init__.py -> /home/zeeshan/rida_ws/build/new_pkg/build/lib/new_pkg
+[2.273s] copying new_pkg/first_node.py -> /home/zeeshan/rida_ws/build/new_pkg/build/lib/new_pkg
+[2.273s] running install
+[2.274s] running install_lib
+[2.278s] creating /home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg
+[2.278s] copying /home/zeeshan/rida_ws/build/new_pkg/build/lib/new_pkg/__init__.py -> /home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg
+[2.278s] copying /home/zeeshan/rida_ws/build/new_pkg/build/lib/new_pkg/first_node.py -> /home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg
+[2.279s] byte-compiling /home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg/__init__.py to __init__.cpython-310.pyc
+[2.280s] byte-compiling /home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg/first_node.py to first_node.cpython-310.pyc
+[2.280s] running install_data
+[2.281s] creating /home/zeeshan/rida_ws/install/new_pkg/share/ament_index
+[2.281s] creating /home/zeeshan/rida_ws/install/new_pkg/share/ament_index/resource_index
+[2.281s] creating /home/zeeshan/rida_ws/install/new_pkg/share/ament_index/resource_index/packages
+[2.281s] copying resource/new_pkg -> /home/zeeshan/rida_ws/install/new_pkg/share/ament_index/resource_index/packages
+[2.281s] copying package.xml -> /home/zeeshan/rida_ws/install/new_pkg/share/new_pkg
+[2.281s] running install_egg_info
+[2.285s] Copying ../../build/new_pkg/new_pkg.egg-info to /home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg-0.0.0-py3.10.egg-info
+[2.287s] running install_scripts
+[2.326s] writing list of installed files to '/home/zeeshan/rida_ws/build/new_pkg/install.log'
+[2.396s] Invoked command in '/home/zeeshan/rida_ws/src/new_pkg' returned '0': PYTHONPATH=/home/zeeshan/rida_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/zeeshan/rida_ws/build/new_pkg/build install --record /home/zeeshan/rida_ws/build/new_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[ 50%] Built target map_handler
+[100%] Built target path_planner
+-- Install configuration: ""
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/path_planner
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/launch
+-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/launch/launch_planner.launch.py
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.sh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.dsv
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.bash
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.sh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.zsh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.dsv
+-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.dsv
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.xml

@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target map_handler[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_handler.dir/src/map_handler.cpp.o[0m
+[01m[K/home/zeeshan/rida_ws/src/simple_planner/src/map_handler.cpp:[m[K In member function ‘[01m[Kvoid SimplePlanner::map_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/zeeshan/rida_ws/src/simple_planner/src/map_handler.cpp:31:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   31 |         for (size_t y = 0; [01;35m[Ky < map_height_[m[K; ++y)
+      |                            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/zeeshan/rida_ws/src/simple_planner/src/map_handler.cpp:33:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   33 |             for (size_t x = 0; [01;35m[Kx < map_width_[m[K; ++x)
+      |                                [01;35m[K~~^~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable map_handler[0m
+[100%] Built target map_handler
+-- Install configuration: ""
+-- Installing: /home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler
+-- Set runtime path of "/home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler" to ""
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.sh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.dsv
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.bash
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.sh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.zsh
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.dsv
+-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.dsv
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.xml

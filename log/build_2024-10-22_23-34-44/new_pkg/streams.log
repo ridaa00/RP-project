@@ -1,0 +1,20 @@
+[1.627s] Invoking command in '/home/zeeshan/rida_ws/src/new_pkg': PYTHONPATH=/home/zeeshan/rida_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/zeeshan/rida_ws/build/new_pkg/build install --record /home/zeeshan/rida_ws/build/new_pkg/install.log --single-version-externally-managed install_data
+[2.186s] running egg_info
+[2.188s] writing ../../build/new_pkg/new_pkg.egg-info/PKG-INFO
+[2.188s] writing dependency_links to ../../build/new_pkg/new_pkg.egg-info/dependency_links.txt
+[2.189s] writing entry points to ../../build/new_pkg/new_pkg.egg-info/entry_points.txt
+[2.189s] writing requirements to ../../build/new_pkg/new_pkg.egg-info/requires.txt
+[2.189s] writing top-level names to ../../build/new_pkg/new_pkg.egg-info/top_level.txt
+[2.195s] reading manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[2.196s] writing manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[2.196s] running build
+[2.197s] running build_py
+[2.197s] running install
+[2.198s] running install_lib
+[2.202s] running install_data
+[2.203s] running install_egg_info
+[2.206s] removing '/home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.206s] Copying ../../build/new_pkg/new_pkg.egg-info to /home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages/new_pkg-0.0.0-py3.10.egg-info
+[2.208s] running install_scripts
+[2.248s] writing list of installed files to '/home/zeeshan/rida_ws/build/new_pkg/install.log'
+[2.316s] Invoked command in '/home/zeeshan/rida_ws/src/new_pkg' returned '0': PYTHONPATH=/home/zeeshan/rida_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeeshan/rida_ws/install/new_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/zeeshan/rida_ws/build/new_pkg/build install --record /home/zeeshan/rida_ws/build/new_pkg/install.log --single-version-externally-managed install_data

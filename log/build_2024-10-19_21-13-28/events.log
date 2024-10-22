@@ -1,0 +1,278 @@
+[0.000000] (-) TimerEvent: {}
+[0.000954] (-) JobUnselected: {'identifier': 'cpp_pkg'}
+[0.001087] (-) JobUnselected: {'identifier': 'new_pkg'}
+[0.001165] (simple_planner) JobQueued: {'identifier': 'simple_planner', 'dependencies': OrderedDict()}
+[0.001218] (simple_planner) JobStarted: {'identifier': 'simple_planner'}
+[0.020083] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'cmake'}
+[0.021148] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'build'}
+[0.022881] (simple_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zeeshan/rida_ws/build/simple_planner', '--', '-j4', '-l4'], 'cwd': '/home/zeeshan/rida_ws/build/simple_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zeeshan'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zeeshan'), ('OLDPWD', '/home/zeeshan/rida_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/zeeshan/.nvm/versions/node/v18.20.3/bin'), ('NVM_INC', '/home/zeeshan/.nvm/versions/node/v18.20.3/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '5400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/zeeshan/.nvm'), ('COLCON_PREFIX_PATH', '/home/zeeshan/rida_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zeeshan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zeeshan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zeeshan/.nvm/versions/node/v18.20.3/bin:/home/zeeshan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zeeshan-F15Plus-2:@/tmp/.ICE-unix/2377,unix/zeeshan-F15Plus-2:/tmp/.ICE-unix/2377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/edcd2be1_b143_4029_ac82_bdf181287221'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zeeshan/rida_ws/install/simple_planner:/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zeeshan/rida_ws/build/simple_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zeeshan/rida_ws/install/simple_planner:/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.083328] (simple_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097926] (-) TimerEvent: {}
+[0.198561] (-) TimerEvent: {}
+[0.299129] (-) TimerEvent: {}
+[0.374426] (simple_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399337] (-) TimerEvent: {}
+[0.479047] (simple_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.488164] (simple_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499456] (-) TimerEvent: {}
+[0.507776] (simple_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.543709] (simple_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.591764] (simple_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599584] (-) TimerEvent: {}
+[0.700028] (-) TimerEvent: {}
+[0.747051] (simple_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.753061] (simple_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800221] (-) TimerEvent: {}
+[0.900755] (-) TimerEvent: {}
+[1.000003] (simple_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000818] (-) TimerEvent: {}
+[1.101228] (-) TimerEvent: {}
+[1.201791] (-) TimerEvent: {}
+[1.302319] (-) TimerEvent: {}
+[1.402959] (-) TimerEvent: {}
+[1.417336] (simple_planner) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.503137] (-) TimerEvent: {}
+[1.603679] (-) TimerEvent: {}
+[1.704225] (-) TimerEvent: {}
+[1.757344] (simple_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.804389] (-) TimerEvent: {}
+[1.904894] (-) TimerEvent: {}
+[1.916965] (simple_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.917809] (simple_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.918258] (simple_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.919894] (simple_planner) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.922958] (simple_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.924766] (simple_planner) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.930055] (simple_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.930549] (simple_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.933029] (simple_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.938252] (simple_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.980738] (simple_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[1.986046] (simple_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/zeeshan/rida_ws/build/simple_planner\n'}
+[2.005082] (-) TimerEvent: {}
+[2.044288] (simple_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_handler\x1b[0m\n'}
+[2.063003] (simple_planner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/path_planner.dir/src/path_planner.cpp.o\x1b[0m\n'}
+[2.080122] (simple_planner) StdoutLine: {'line': b'[ 75%] Built target map_handler\n'}
+[2.105250] (-) TimerEvent: {}
+[2.205714] (-) TimerEvent: {}
+[2.306723] (-) TimerEvent: {}
+[2.407257] (-) TimerEvent: {}
+[2.507727] (-) TimerEvent: {}
+[2.608311] (-) TimerEvent: {}
+[2.708954] (-) TimerEvent: {}
+[2.809491] (-) TimerEvent: {}
+[2.910099] (-) TimerEvent: {}
+[3.010704] (-) TimerEvent: {}
+[3.111258] (-) TimerEvent: {}
+[3.211805] (-) TimerEvent: {}
+[3.312366] (-) TimerEvent: {}
+[3.413039] (-) TimerEvent: {}
+[3.513609] (-) TimerEvent: {}
+[3.614147] (-) TimerEvent: {}
+[3.714692] (-) TimerEvent: {}
+[3.815249] (-) TimerEvent: {}
+[3.915823] (-) TimerEvent: {}
+[4.016360] (-) TimerEvent: {}
+[4.117004] (-) TimerEvent: {}
+[4.217543] (-) TimerEvent: {}
+[4.318089] (-) TimerEvent: {}
+[4.418661] (-) TimerEvent: {}
+[4.519264] (-) TimerEvent: {}
+[4.619858] (-) TimerEvent: {}
+[4.720469] (-) TimerEvent: {}
+[4.821095] (-) TimerEvent: {}
+[4.921690] (-) TimerEvent: {}
+[5.022283] (-) TimerEvent: {}
+[5.122983] (-) TimerEvent: {}
+[5.223659] (-) TimerEvent: {}
+[5.324234] (-) TimerEvent: {}
+[5.424720] (-) TimerEvent: {}
+[5.525313] (-) TimerEvent: {}
+[5.625896] (-) TimerEvent: {}
+[5.726430] (-) TimerEvent: {}
+[5.826986] (-) TimerEvent: {}
+[5.927930] (-) TimerEvent: {}
+[6.028499] (-) TimerEvent: {}
+[6.129459] (-) TimerEvent: {}
+[6.230028] (-) TimerEvent: {}
+[6.330616] (-) TimerEvent: {}
+[6.431177] (-) TimerEvent: {}
+[6.531707] (-) TimerEvent: {}
+[6.632251] (-) TimerEvent: {}
+[6.732787] (-) TimerEvent: {}
+[6.833331] (-) TimerEvent: {}
+[6.933940] (-) TimerEvent: {}
+[7.034484] (-) TimerEvent: {}
+[7.135030] (-) TimerEvent: {}
+[7.235594] (-) TimerEvent: {}
+[7.329854] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zeeshan/rida_ws/src/simple_planner/src/path_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimplePlanner::map_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.330265] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zeeshan/rida_ws/src/simple_planner/src/path_planner.cpp:31:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.330425] (simple_planner) StderrLine: {'line': b'   31 |         for (size_t y = 0; \x1b[01;35m\x1b[Ky < map_height_\x1b[m\x1b[K; ++y)\n'}
+[7.330575] (simple_planner) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.330778] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zeeshan/rida_ws/src/simple_planner/src/path_planner.cpp:33:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.330939] (simple_planner) StderrLine: {'line': b'   33 |             for (size_t x = 0; \x1b[01;35m\x1b[Kx < map_width_\x1b[m\x1b[K; ++x)\n'}
+[7.331082] (simple_planner) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.335699] (-) TimerEvent: {}
+[7.436232] (-) TimerEvent: {}
+[7.536826] (-) TimerEvent: {}
+[7.637375] (-) TimerEvent: {}
+[7.737952] (-) TimerEvent: {}
+[7.838684] (-) TimerEvent: {}
+[7.939300] (-) TimerEvent: {}
+[8.039933] (-) TimerEvent: {}
+[8.140553] (-) TimerEvent: {}
+[8.241152] (-) TimerEvent: {}
+[8.341699] (-) TimerEvent: {}
+[8.442304] (-) TimerEvent: {}
+[8.542894] (-) TimerEvent: {}
+[8.643437] (-) TimerEvent: {}
+[8.744003] (-) TimerEvent: {}
+[8.844553] (-) TimerEvent: {}
+[8.945106] (-) TimerEvent: {}
+[9.045669] (-) TimerEvent: {}
+[9.146228] (-) TimerEvent: {}
+[9.246827] (-) TimerEvent: {}
+[9.347438] (-) TimerEvent: {}
+[9.448009] (-) TimerEvent: {}
+[9.548558] (-) TimerEvent: {}
+[9.649116] (-) TimerEvent: {}
+[9.749667] (-) TimerEvent: {}
+[9.850184] (-) TimerEvent: {}
+[9.950741] (-) TimerEvent: {}
+[10.051356] (-) TimerEvent: {}
+[10.152049] (-) TimerEvent: {}
+[10.252689] (-) TimerEvent: {}
+[10.353293] (-) TimerEvent: {}
+[10.453857] (-) TimerEvent: {}
+[10.554462] (-) TimerEvent: {}
+[10.655032] (-) TimerEvent: {}
+[10.755616] (-) TimerEvent: {}
+[10.856201] (-) TimerEvent: {}
+[10.956795] (-) TimerEvent: {}
+[11.057381] (-) TimerEvent: {}
+[11.157955] (-) TimerEvent: {}
+[11.258545] (-) TimerEvent: {}
+[11.359168] (-) TimerEvent: {}
+[11.459742] (-) TimerEvent: {}
+[11.560332] (-) TimerEvent: {}
+[11.660963] (-) TimerEvent: {}
+[11.761511] (-) TimerEvent: {}
+[11.862166] (-) TimerEvent: {}
+[11.962721] (-) TimerEvent: {}
+[12.063280] (-) TimerEvent: {}
+[12.163895] (-) TimerEvent: {}
+[12.264501] (-) TimerEvent: {}
+[12.365161] (-) TimerEvent: {}
+[12.465710] (-) TimerEvent: {}
+[12.566269] (-) TimerEvent: {}
+[12.666812] (-) TimerEvent: {}
+[12.767360] (-) TimerEvent: {}
+[12.867963] (-) TimerEvent: {}
+[12.968495] (-) TimerEvent: {}
+[13.069177] (-) TimerEvent: {}
+[13.169730] (-) TimerEvent: {}
+[13.270287] (-) TimerEvent: {}
+[13.370869] (-) TimerEvent: {}
+[13.471456] (-) TimerEvent: {}
+[13.572036] (-) TimerEvent: {}
+[13.672592] (-) TimerEvent: {}
+[13.773143] (-) TimerEvent: {}
+[13.873688] (-) TimerEvent: {}
+[13.974241] (-) TimerEvent: {}
+[14.074812] (-) TimerEvent: {}
+[14.175342] (-) TimerEvent: {}
+[14.275896] (-) TimerEvent: {}
+[14.376447] (-) TimerEvent: {}
+[14.477012] (-) TimerEvent: {}
+[14.577593] (-) TimerEvent: {}
+[14.678143] (-) TimerEvent: {}
+[14.778691] (-) TimerEvent: {}
+[14.879263] (-) TimerEvent: {}
+[14.979820] (-) TimerEvent: {}
+[15.080389] (-) TimerEvent: {}
+[15.181011] (-) TimerEvent: {}
+[15.281553] (-) TimerEvent: {}
+[15.382298] (-) TimerEvent: {}
+[15.482809] (-) TimerEvent: {}
+[15.583336] (-) TimerEvent: {}
+[15.683985] (-) TimerEvent: {}
+[15.784515] (-) TimerEvent: {}
+[15.885117] (-) TimerEvent: {}
+[15.985659] (-) TimerEvent: {}
+[16.086215] (-) TimerEvent: {}
+[16.186710] (-) TimerEvent: {}
+[16.287222] (-) TimerEvent: {}
+[16.387734] (-) TimerEvent: {}
+[16.488304] (-) TimerEvent: {}
+[16.588853] (-) TimerEvent: {}
+[16.689449] (-) TimerEvent: {}
+[16.790004] (-) TimerEvent: {}
+[16.890618] (-) TimerEvent: {}
+[16.991181] (-) TimerEvent: {}
+[17.091720] (-) TimerEvent: {}
+[17.192259] (-) TimerEvent: {}
+[17.292775] (-) TimerEvent: {}
+[17.393332] (-) TimerEvent: {}
+[17.493966] (-) TimerEvent: {}
+[17.594563] (-) TimerEvent: {}
+[17.695153] (-) TimerEvent: {}
+[17.795697] (-) TimerEvent: {}
+[17.896278] (-) TimerEvent: {}
+[17.996847] (-) TimerEvent: {}
+[18.097453] (-) TimerEvent: {}
+[18.198171] (-) TimerEvent: {}
+[18.298715] (-) TimerEvent: {}
+[18.399239] (-) TimerEvent: {}
+[18.499786] (-) TimerEvent: {}
+[18.600361] (-) TimerEvent: {}
+[18.700994] (-) TimerEvent: {}
+[18.801607] (-) TimerEvent: {}
+[18.902184] (-) TimerEvent: {}
+[19.002822] (-) TimerEvent: {}
+[19.103499] (-) TimerEvent: {}
+[19.204144] (-) TimerEvent: {}
+[19.304763] (-) TimerEvent: {}
+[19.356737] (simple_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable path_planner\x1b[0m\n'}
+[19.404928] (-) TimerEvent: {}
+[19.505461] (-) TimerEvent: {}
+[19.606041] (-) TimerEvent: {}
+[19.706640] (-) TimerEvent: {}
+[19.807219] (-) TimerEvent: {}
+[19.907789] (-) TimerEvent: {}
+[20.008328] (-) TimerEvent: {}
+[20.108880] (-) TimerEvent: {}
+[20.209429] (-) TimerEvent: {}
+[20.310047] (-) TimerEvent: {}
+[20.410681] (-) TimerEvent: {}
+[20.511272] (-) TimerEvent: {}
+[20.611800] (-) TimerEvent: {}
+[20.636656] (simple_planner) StdoutLine: {'line': b'[100%] Built target path_planner\n'}
+[20.660672] (simple_planner) CommandEnded: {'returncode': 0}
+[20.706968] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'install'}
+[20.711926] (-) TimerEvent: {}
+[20.724552] (simple_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zeeshan/rida_ws/build/simple_planner'], 'cwd': '/home/zeeshan/rida_ws/build/simple_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zeeshan'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zeeshan'), ('OLDPWD', '/home/zeeshan/rida_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/zeeshan/.nvm/versions/node/v18.20.3/bin'), ('NVM_INC', '/home/zeeshan/.nvm/versions/node/v18.20.3/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '5400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/zeeshan/.nvm'), ('COLCON_PREFIX_PATH', '/home/zeeshan/rida_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zeeshan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zeeshan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zeeshan/.nvm/versions/node/v18.20.3/bin:/home/zeeshan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zeeshan-F15Plus-2:@/tmp/.ICE-unix/2377,unix/zeeshan-F15Plus-2:/tmp/.ICE-unix/2377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/edcd2be1_b143_4029_ac82_bdf181287221'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zeeshan/rida_ws/install/simple_planner:/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zeeshan/rida_ws/build/simple_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zeeshan/rida_ws/install/simple_planner:/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[20.739126] (simple_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.740326] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/map_handler\n'}
+[20.740646] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/path_planner\n'}
+[20.751746] (simple_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/zeeshan/rida_ws/install/simple_planner/lib/simple_planner/path_planner" to ""\n'}
+[20.752167] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/launch\n'}
+[20.752460] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/launch/launch.py\n'}
+[20.752710] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner\n'}
+[20.752869] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner\n'}
+[20.753084] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh\n'}
+[20.753238] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv\n'}
+[20.753445] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.sh\n'}
+[20.753606] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/environment/path.dsv\n'}
+[20.753765] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.bash\n'}
+[20.754040] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.sh\n'}
+[20.754192] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.zsh\n'}
+[20.754353] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/local_setup.dsv\n'}
+[20.754600] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.dsv\n'}
+[20.754789] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/ament_index/resource_index/packages/simple_planner\n'}
+[20.754933] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake\n'}
+[20.755076] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake\n'}
+[20.755221] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/simple_planner/share/simple_planner/package.xml\n'}
+[20.757593] (simple_planner) CommandEnded: {'returncode': 0}
+[20.812065] (-) TimerEvent: {}
+[20.832915] (simple_planner) JobEnded: {'identifier': 'simple_planner', 'rc': 0}
+[20.834137] (-) EventReactorShutdown: {}

@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000869] (-) JobUnselected: {'identifier': 'new_pkg'}
+[0.000944] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.000998] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.020475] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.022184] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[0.023524] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zeeshan/rida_ws/build/cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/zeeshan/rida_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zeeshan'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zeeshan'), ('OLDPWD', '/home/zeeshan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/zeeshan/.nvm/versions/node/v18.20.3/bin'), ('NVM_INC', '/home/zeeshan/.nvm/versions/node/v18.20.3/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/zeeshan/.nvm'), ('COLCON_PREFIX_PATH', '/home/zeeshan/rida_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zeeshan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zeeshan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zeeshan/.nvm/versions/node/v18.20.3/bin:/home/zeeshan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zeeshan-F15Plus-2:@/tmp/.ICE-unix/2417,unix/zeeshan-F15Plus-2:/tmp/.ICE-unix/2417'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e415b6b_c825_425e_b44b_1f5b1fe96766'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.197'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zeeshan/rida_ws/build/cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.081442] (cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099191] (-) TimerEvent: {}
+[0.199679] (-) TimerEvent: {}
+[0.300179] (-) TimerEvent: {}
+[0.368459] (cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400359] (-) TimerEvent: {}
+[0.461123] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.469175] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.487363] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.500501] (-) TimerEvent: {}
+[0.519362] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.564066] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600667] (-) TimerEvent: {}
+[0.701182] (-) TimerEvent: {}
+[0.734124] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.739053] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801332] (-) TimerEvent: {}
+[0.901860] (-) TimerEvent: {}
+[0.993226] (cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002004] (-) TimerEvent: {}
+[1.102523] (-) TimerEvent: {}
+[1.203028] (-) TimerEvent: {}
+[1.303507] (-) TimerEvent: {}
+[1.404008] (-) TimerEvent: {}
+[1.419592] (cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.504135] (-) TimerEvent: {}
+[1.576865] (cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.577277] (cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.577434] (cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.578567] (cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.581211] (cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.581412] (cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.582076] (cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.584687] (cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.604334] (-) TimerEvent: {}
+[1.606917] (cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.610295] (cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/zeeshan/rida_ws/build/cpp_pkg\n'}
+[1.660546] (cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[1.699315] (cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[1.704535] (-) TimerEvent: {}
+[1.805059] (-) TimerEvent: {}
+[1.905552] (-) TimerEvent: {}
+[2.006047] (-) TimerEvent: {}
+[2.106552] (-) TimerEvent: {}
+[2.207072] (-) TimerEvent: {}
+[2.307568] (-) TimerEvent: {}
+[2.408143] (-) TimerEvent: {}
+[2.508693] (-) TimerEvent: {}
+[2.609296] (-) TimerEvent: {}
+[2.709853] (-) TimerEvent: {}
+[2.810382] (-) TimerEvent: {}
+[2.910930] (-) TimerEvent: {}
+[3.011469] (-) TimerEvent: {}
+[3.112004] (-) TimerEvent: {}
+[3.212555] (-) TimerEvent: {}
+[3.315162] (-) TimerEvent: {}
+[3.415705] (-) TimerEvent: {}
+[3.516268] (-) TimerEvent: {}
+[3.616819] (-) TimerEvent: {}
+[3.717366] (-) TimerEvent: {}
+[3.818000] (-) TimerEvent: {}
+[3.918481] (-) TimerEvent: {}
+[4.019154] (-) TimerEvent: {}
+[4.119646] (-) TimerEvent: {}
+[4.220194] (-) TimerEvent: {}
+[4.320729] (-) TimerEvent: {}
+[4.421682] (-) TimerEvent: {}
+[4.522209] (-) TimerEvent: {}
+[4.622730] (-) TimerEvent: {}
+[4.723305] (-) TimerEvent: {}
+[4.823864] (-) TimerEvent: {}
+[4.924405] (-) TimerEvent: {}
+[5.024919] (-) TimerEvent: {}
+[5.125461] (-) TimerEvent: {}
+[5.225996] (-) TimerEvent: {}
+[5.326520] (-) TimerEvent: {}
+[5.427064] (-) TimerEvent: {}
+[5.527608] (-) TimerEvent: {}
+[5.628144] (-) TimerEvent: {}
+[5.728708] (-) TimerEvent: {}
+[5.829253] (-) TimerEvent: {}
+[5.929809] (-) TimerEvent: {}
+[6.030374] (-) TimerEvent: {}
+[6.130934] (-) TimerEvent: {}
+[6.231509] (-) TimerEvent: {}
+[6.332096] (-) TimerEvent: {}
+[6.432696] (-) TimerEvent: {}
+[6.537900] (-) TimerEvent: {}
+[6.638469] (-) TimerEvent: {}
+[6.738995] (-) TimerEvent: {}
+[6.839609] (-) TimerEvent: {}
+[6.940226] (-) TimerEvent: {}
+[7.040868] (-) TimerEvent: {}
+[7.141434] (-) TimerEvent: {}
+[7.242103] (-) TimerEvent: {}
+[7.342783] (-) TimerEvent: {}
+[7.443379] (-) TimerEvent: {}
+[7.544018] (-) TimerEvent: {}
+[7.644558] (-) TimerEvent: {}
+[7.745150] (-) TimerEvent: {}
+[7.845818] (-) TimerEvent: {}
+[7.946416] (-) TimerEvent: {}
+[8.047073] (-) TimerEvent: {}
+[8.147660] (-) TimerEvent: {}
+[8.248296] (-) TimerEvent: {}
+[8.348898] (-) TimerEvent: {}
+[8.449457] (-) TimerEvent: {}
+[8.536600] (cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[8.549652] (-) TimerEvent: {}
+[8.650269] (-) TimerEvent: {}
+[8.750837] (-) TimerEvent: {}
+[8.851368] (-) TimerEvent: {}
+[8.945897] (cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_node\n'}
+[8.951533] (-) TimerEvent: {}
+[8.967555] (cpp_pkg) CommandEnded: {'returncode': 0}
+[9.011072] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'install'}
+[9.028279] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zeeshan/rida_ws/build/cpp_pkg'], 'cwd': '/home/zeeshan/rida_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zeeshan'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zeeshan'), ('OLDPWD', '/home/zeeshan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/zeeshan/.nvm/versions/node/v18.20.3/bin'), ('NVM_INC', '/home/zeeshan/.nvm/versions/node/v18.20.3/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2445'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/zeeshan/.nvm'), ('COLCON_PREFIX_PATH', '/home/zeeshan/rida_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zeeshan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zeeshan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zeeshan/.nvm/versions/node/v18.20.3/bin:/home/zeeshan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zeeshan-F15Plus-2:@/tmp/.ICE-unix/2417,unix/zeeshan-F15Plus-2:/tmp/.ICE-unix/2417'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e415b6b_c825_425e_b44b_1f5b1fe96766'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.197'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zeeshan/rida_ws/build/cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zeeshan/rida_ws/install/cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[9.044801] (cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.046067] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/cpp_pkg/lib/cpp_pkg/cpp_node\n'}
+[9.047453] (cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zeeshan/rida_ws/install/cpp_pkg/lib/cpp_pkg/cpp_node" to ""\n'}
+[9.047736] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg\n'}
+[9.048008] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg\n'}
+[9.048300] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh\n'}
+[9.048474] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[9.048691] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh\n'}
+[9.048902] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv\n'}
+[9.049155] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash\n'}
+[9.049333] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh\n'}
+[9.049586] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh\n'}
+[9.049789] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv\n'}
+[9.049969] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/package.dsv\n'}
+[9.050286] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg\n'}
+[9.050568] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake\n'}
+[9.050737] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake\n'}
+[9.050926] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zeeshan/rida_ws/install/cpp_pkg/share/cpp_pkg/package.xml\n'}
+[9.051612] (-) TimerEvent: {}
+[9.053854] (cpp_pkg) CommandEnded: {'returncode': 0}
+[9.142425] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 0}
+[9.143672] (-) EventReactorShutdown: {}
