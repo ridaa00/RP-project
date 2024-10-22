@@ -1,20 +1,5 @@
-# Ignore build, install, and log folders, but allow specific files
-build/
-install/
-log/
-
-# Allow specific files to be tracked even inside these folders
-!src/**/*.cpp
-!src/**/*.hpp
-!src/**/*.launch.py
-!src/**/*.yaml
-
-# Ignore CMake cache files and temporary files
-CMakeCache.txt
-CMakeFiles/
-
-# Ignore Python cache and virtual environment files
-*.pyc
-__pycache__/
-venv/
+build
+*~
+*.o
+#*
 
